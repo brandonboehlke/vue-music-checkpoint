@@ -18,7 +18,7 @@
   import Itunes from './Itunes'
   import MyTunes from './MyTunes'
   import itunesService from '../services/itunes-service'
-  import myTunesService from "../services/mytunes-service"
+  import myTunesService from '../services/mytunes-service'
 
   export default {
     name: 'home',

@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <!-- YOU WILL PROBABLY END UP WITH SOMETHING LIKE THIS -->
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6 col-md-6">
+        <div class="itunes col-sm-6 col-md-6">
           <Itunes class="itunes"></Itunes>
         </div>
         <div class="col-sm-6 col-md-6">

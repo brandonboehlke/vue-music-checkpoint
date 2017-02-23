@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="panel panel-default col-xs-6 col-md-6 col-lg-6">
+        <div class="panel panel-default">
             <div class="panel-body">
                 <form @submit.prevent="getSongs">
                     <div class="form-group text-align: center">
@@ -27,6 +27,7 @@
                         <audio controls preload="none">
                             <source :src="song.preview" type="audio/mp4">
                         </audio>
+                        <hr>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="panel panel-default col-xs-6 col-md-6 col-lg-6">
+    <div class="panel panel-default">
         <h3>My Playlist:</h3>
         <div class="panel-body">
 

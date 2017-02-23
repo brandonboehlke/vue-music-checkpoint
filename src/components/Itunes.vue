@@ -20,7 +20,7 @@
 
                         <h3>Song: {{song.title}}</h3>
                         <h4>By: {{song.artist}}</h4>
-                        <h5>Album: {{song.collection}}</h5>
+                        <h5>{{song.collection}}</h5>
                         <h5>${{song.price}}</h5>
 
                         <button v-if="!track.isThere" class="btn btn-primary" @click="addMyTunes(index,song)">Add to MyTunes</button>

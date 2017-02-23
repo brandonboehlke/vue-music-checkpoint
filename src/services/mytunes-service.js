@@ -34,6 +34,7 @@ export default {
     track.demote = 0
     track.promote = 1
     // saveMySelection(track)
+    
     // OCCASIONALLY YOU WILL RUN INTO ISSUES WHERE VUE WILL BE
     // UNAWARE THAT A CHANGE HAS OCCURED TO YOUR DATA
     // TO ELIMINATE THIS PROBLEM YOU CAN USE

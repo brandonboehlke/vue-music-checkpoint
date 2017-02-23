@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="panel panel-default col-xs-6 col-md-6 col-lg-6">
+        <div class="panel panel-default">
             <div class="panel-body">
                 <form @submit.prevent="getSongs">
                     <div class="form-group text-align: center">
@@ -20,13 +20,14 @@
 
                         <h3>Song: {{song.title}}</h3>
                         <h4>By: {{song.artist}}</h4>
-                        <h5>Album: {{song.collection}}</h5>
+                        <h5>{{song.collection}}</h5>
                         <h5>${{song.price}}</h5>
 
                         <button v-if="!track.isThere" class="btn btn-primary" @click="addMyTunes(index,song)">Add to MyTunes</button>
                         <audio controls preload="none">
                             <source :src="song.preview" type="audio/mp4">
                         </audio>
+                        <hr>
                     </div>
                 </div>
             </div>
